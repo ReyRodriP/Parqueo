@@ -11,6 +11,7 @@ package com.mycompany.menu;
 public class MENU {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        FormLogin objetoLogin = new FormLogin();
+        objetoLogin.setVisible(true);
     }
 }
